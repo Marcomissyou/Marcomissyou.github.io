@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>NVM - Nodejs 版本管理器 | 瓦尔登湖</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+<link rel="stylesheet" href="/vendor/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="header">
+    <div class="title">瓦尔登湖</div>
+    <div class="other">
+        <span class="screen-width">
+    <span class="xs">XS 0-600</span>
+    <span class="sm">SM 600-800</span>
+    <span class="md">MD 800-1000</span>
+    <span class="lg">LG 1000-1200</span>
+    <span class="xl">XL 1200-1500</span>
+    <span class="xxl">XXL 1500-1800</span>
+    <span class="xxxl">XXXL 1800-</span>
+</span>
+    </div>
+    <div class="menu-main-toggle">
+        <a class="open"><i class="bi bi-list"></i></a>
+        <a class="close"><i class="bi bi-x"></i></a>
+    </div>
+</div>
+<nav class="menu-main">
+    <div class="menu-container">
+        <ul class="menu">
+    
+    
+        
+        
+        <li class="menu-item">
+            <a class="" href="/">首页</a>
+        </li>
+    
+        
+        
+        <li class="menu-item">
+            <a class=" active " href="/docs/">文件</a>
+        </li>
+    
+        
+        
+        <li class="menu-item">
+            <a class="" href="/blog/">部落客</a>
+        </li>
+    
+    </ul>
+    </div>
+    <div class="menu-container">
+        
+    <ul class="menu">
+    
+    
+            <li class="menu-item">
+                <a href="https://genway.com.cn/en/">English</a>
+            </li>
+            
+        
+        
+    
+    
+    </ul>
+
+    </div>
+</nav>
+    </header>
+    <div id="stager">
+      
+<aside class="aside-default">
+    <div class="inner-container">
+        <div id="menutree">
+            
+
+
+    
+<ul class="menu-tree">
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>INCOSE 系統工程</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop/">Ubuntu 桌面的安装使用笔记</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/">Ubuntu 桌面 - 应用软件</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/">Ubuntu 桌面 - 工具</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>Docker</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/docker/install-docker-on-ubuntu/">在 Ubuntu Server 上安装 Docker</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/docker/run-httpd-in-docker-as-webserver/">在 Docker 容器中运行 Apache 网站服务器</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>前端技术</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/frontend/light-and-dark-mode-switching/">网页明暗模式切换的原生代码</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>Nodejs</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a class="active" href="https://genway.com.cn/docs/nodejs/nvm-nodejs-manager/">NVM - Nodejs 版本管理器</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>ISO26262 車載功能安全</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/iso26262/light-and-dark-mode-switching/">ISO26262-Part2</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+</ul>
+
+
+
+
+    
+        </div>
+    </div>
+</aside>
+<main>
+    <div id="docspost">
+        <article class="docs-post">
+    <div class="post-header">
+        <h1 class="post-title">NVM - Nodejs 版本管理器</h1>
+        <div class="post-meta">
+            <span>
+                <i class="bi bi-calendar3"></i>
+                Dec 25, 2022
+            </span>
+            <span>
+                <i class="bi bi-person-circle"></i>
+                
+                    Homecat
+                
+            </span>
+        </div>
+    </div>
+    <div class="post-container ">
+        <div class="post-content markdown"><p>NVM 是 Nodejs 的版本管理器，适用于不同操作平台上任何符合 POSIX 标准的 shell， 如：sh、dash、ksh、zsh、bash等，允许用户通过命令行快速安装和使用不同版本的 Nodejs。</p>
+<h2 id="准备">准备</h2>
+<ul>
+<li>远程仓库位置：<a href="https://github.com/nvm-sh/nvm">https://github.com/nvm-sh/nvm</a></li>
+<li>本地安装环境：<a href="https://ubuntu.com">Ubuntu 22.04 LTS</a></li>
+</ul>
+<h2 id="获取安装文件">获取安装文件</h2>
+<p>安装文件为 <a href="https://github.com/nvm-sh/nvm/blob/master/install.sh">https://github.com/nvm-sh/nvm/blob/master/install.sh</a>，可通过多种方式下载到本地 /home 目录，最简单的方式就是直接拷贝。</p>
+<h2 id="安装">安装</h2>
+<p>根据使用系统的 shell，Ubuntu 22.04 LTS 可使用 bash，执行相关的安装命令：</p>
+<pre tabindex="0"><code>bash install.sh
+</code></pre><p>系统输出的安装信息：</p>
+<pre tabindex="0"><code>=&gt; Downloading nvm from git to &#39;/home/zhong/.nvm&#39; &lt;/br&gt;
+=&gt; Cloning into &#39;/home/zhong/.nvm&#39;... &lt;/br&gt;
+remote: Enumerating objects: 358, done. &lt;/br&gt;
+remote: Counting objects: 100% (358/358), done. &lt;/br&gt;
+remote: Compressing objects: 100% (304/304), done. &lt;/br&gt;
+remote: Total 358 (delta 39), reused 176 (delta 28), pack-reused 0 &lt;/br&gt;
+Receiving objects: 100% (358/358), 219.30 KiB | 56.00 KiB/s, done. &lt;/br&gt;
+Resolving deltas: 100% (39/39), done. &lt;/br&gt;
+(HEAD detached at FETCH_HEAD) &lt;/br&gt;
+  master &lt;/br&gt;
+=&gt; Compressing and cleaning up git repository &lt;/br&gt;
+&lt;/br&gt;
+=&gt; Appending nvm source string to /home/zhong/.bashrc &lt;/br&gt;
+=&gt; Appending bash_completion source string to /home/zhong/.bashrc &lt;/br&gt;
+=&gt; Close and reopen your terminal to start using nvm or run the following to use it now: &lt;/br&gt;
+&lt;/br&gt;
+export NVM_DIR=&#34;$HOME/.nvm&#34; &lt;/br&gt;
+[ -s &#34;$NVM_DIR/nvm.sh&#34; ] &amp;&amp; \. &#34;$NVM_DIR/nvm.sh&#34;  # This loads nvm &lt;/br&gt;
+[ -s &#34;$NVM_DIR/bash_completion&#34; ] &amp;&amp; \. &#34;$NVM_DIR/bash_completion&#34;  # This loads nvm bash_completion &lt;/br&gt;
+</code></pre><h2 id="验证">验证</h2>
+<p>根据安装信息可了解到安装目录 &ldquo;/.nvm&rdquo; 和启动方式：退出 Shell 终端并重新启动，执行：</p>
+<pre tabindex="0"><code>nvm --version &lt;/br&gt;
+0.39.3
+</code></pre><p>输出版本表示安装成功。</p>
+<pre tabindex="0"><code>**NOTICE**  
+在 Linux 上运行安装脚本后验证，如果提示 &#34;command not found&#34; 或终端没有反馈信息： 输入命令 &#34;command -v nvm&#34; 后关闭终端，再打开一个新终端继续验证; 或者，打开另一个 Shell 终端，输入命令 &#34;source ~/.bashrc&#34;。
+</code></pre><h2 id="卸载">卸载</h2>
+<p>卸载 NVM 只需要删除安装目录 &ldquo;/.nvm&rdquo;。</p></div>
+        >
+        
+        <div class="post-toc"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#准备">准备</a></li>
+    <li><a href="#获取安装文件">获取安装文件</a></li>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#验证">验证</a></li>
+    <li><a href="#卸载">卸载</a></li>
+  </ul>
+</nav></div>
+    </div>
+</article>
+
+    </div>
+</main>
+<div class="toggles">
+    <a class="sider-open"><i class="bi bi-layout-sidebar"></i></a>
+    <a class="sider-close"><i class="bi bi-x"></i></a>
+    <a class="totop" href="#"><i class="bi bi-chevron-up"></i></a>
+    <a href="#TableOfContents"><i class="bi bi-list-ul"></i></a>
+</div>
+
+    </div>
+    <footer id="footer">
+      <div class="copyright">
+    <span><i class="bi bi-c-circle"></i>2024</span>
+    <span>Homecat</span>
+    <span>版权所有</span>
+</div>
+    </footer>
+  
+<script src="/vendor/jquery-3.7.1/jquery.min.js"></script>
+
+
+<script src="/js/main.js"></script>
+  </body>
+</html>

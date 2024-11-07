@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INCOSE 系統工程 on 瓦尔登湖</title>
+    <link>https://genway.com.cn/docs/ubuntu/</link>
+    <description>Recent content in INCOSE 系統工程 on 瓦尔登湖</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans-CN</language>
+    <copyright>版权所有</copyright>
+    <lastBuildDate>Wed, 22 Dec 2021 11:27:43 +0800</lastBuildDate>
+    <atom:link href="https://genway.com.cn/docs/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 桌面的安装使用笔记</title>
+      <link>https://genway.com.cn/docs/ubuntu/ubuntu-desktop/</link>
+      <pubDate>Mon, 26 Jul 2021 15:40:12 +0800</pubDate>
+      <guid>https://genway.com.cn/docs/ubuntu/ubuntu-desktop/</guid>
+      <description>&lt;p&gt;Ubuntu 桌面系统是非常优秀的开源软件，提供了基本应用程序，如办公套件，浏览器，电子邮件和多媒体应用程序等，以及数千个游戏和应用程序。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu 桌面 - 应用软件</title>
+      <link>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/</link>
+      <pubDate>Wed, 22 Dec 2021 11:27:43 +0800</pubDate>
+      <guid>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/</guid>
+      <description>&lt;p&gt;Ubuntu 桌面系统有很多实用的应用软件，通常是和 Windows 系统下的应用软件是对标的；Ubuntu 软件仓库提供的程序的最大特点，也可以说是优点，就是绝大多数是开源的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu 桌面 - 工具</title>
+      <link>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/</link>
+      <pubDate>Sat, 31 Jul 2021 13:16:03 +0800</pubDate>
+      <guid>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/</guid>
+      <description>&lt;p&gt;Ubuntu 有许多工具，实在让人爱不释手。这些工具的使用多半是采用命令方式，随着键盘的敲击声响起，一种随心所欲的感觉油然而生。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

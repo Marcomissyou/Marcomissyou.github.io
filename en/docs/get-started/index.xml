@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get Started on Walden</title>
+    <link>https://genway.com.cn/en/docs/get-started/</link>
+    <description>Recent content in Get Started on Walden</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved</copyright>
+    <lastBuildDate>Sat, 17 Jun 2023 19:10:11 +0800</lastBuildDate>
+    <atom:link href="https://genway.com.cn/en/docs/get-started/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Demo</title>
+      <link>https://genway.com.cn/en/docs/get-started/demo/</link>
+      <pubDate>Sat, 17 Jun 2023 19:10:02 +0800</pubDate>
+      <guid>https://genway.com.cn/en/docs/get-started/demo/</guid>
+      <description>&lt;p&gt;Two ways to view the demo：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Visit demo site: &lt;a href=&#34;https://walden.genway.com.cn&#34;&gt;walden.genway.com.cn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;View demo by cloning repository from Github.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/homecat805/hugo-theme-walden hugo-theme-walden&#xD;&#xA;cd hugo-theme-walden&#xD;&#xA;hugo server --source &amp;#34;exampleSite&amp;#34; --themesDir  &amp;#34;../..&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://genway.com.cn/en/docs/get-started/installation/</link>
+      <pubDate>Sat, 17 Jun 2023 19:10:11 +0800</pubDate>
+      <guid>https://genway.com.cn/en/docs/get-started/installation/</guid>
+      <description>&lt;p&gt;The Hugo documentation describes in detail how to install on different operating systems, which will not be repeated here, the operating system related to this article is Ubuntu 22.04 LTS.&lt;/p&gt;&#xA;&lt;h2 id=&#34;as-submodule&#34;&gt;As Submodule&lt;/h2&gt;&#xA;&lt;p&gt;Create the website root directory mysite and perform git initialization, then install the theme as a module to the mysite/themes, and copy all the files in the exampleSite in theme directory to the root directory of the website.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>在 Ubuntu Server 上安装 Docker | 瓦尔登湖</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+<link rel="stylesheet" href="/vendor/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="header">
+    <div class="title">瓦尔登湖</div>
+    <div class="other">
+        <span class="screen-width">
+    <span class="xs">XS 0-600</span>
+    <span class="sm">SM 600-800</span>
+    <span class="md">MD 800-1000</span>
+    <span class="lg">LG 1000-1200</span>
+    <span class="xl">XL 1200-1500</span>
+    <span class="xxl">XXL 1500-1800</span>
+    <span class="xxxl">XXXL 1800-</span>
+</span>
+    </div>
+    <div class="menu-main-toggle">
+        <a class="open"><i class="bi bi-list"></i></a>
+        <a class="close"><i class="bi bi-x"></i></a>
+    </div>
+</div>
+<nav class="menu-main">
+    <div class="menu-container">
+        <ul class="menu">
+    
+    
+        
+        
+        <li class="menu-item">
+            <a class="" href="/">首页</a>
+        </li>
+    
+        
+        
+        <li class="menu-item">
+            <a class=" active " href="/docs/">文件</a>
+        </li>
+    
+        
+        
+        <li class="menu-item">
+            <a class="" href="/blog/">部落客</a>
+        </li>
+    
+    </ul>
+    </div>
+    <div class="menu-container">
+        
+    <ul class="menu">
+    
+    
+            <li class="menu-item">
+                <a href="https://genway.com.cn/en/">English</a>
+            </li>
+            
+        
+        
+    
+    
+    </ul>
+
+    </div>
+</nav>
+    </header>
+    <div id="stager">
+      
+<aside class="aside-default">
+    <div class="inner-container">
+        <div id="menutree">
+            
+
+
+    
+<ul class="menu-tree">
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>INCOSE 系統工程</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop/">Ubuntu 桌面的安装使用笔记</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/">Ubuntu 桌面 - 应用软件</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/">Ubuntu 桌面 - 工具</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>Docker</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a class="active" href="https://genway.com.cn/docs/docker/install-docker-on-ubuntu/">在 Ubuntu Server 上安装 Docker</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/docker/run-httpd-in-docker-as-webserver/">在 Docker 容器中运行 Apache 网站服务器</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>前端技术</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/frontend/light-and-dark-mode-switching/">网页明暗模式切换的原生代码</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>Nodejs</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/nodejs/nvm-nodejs-manager/">NVM - Nodejs 版本管理器</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>ISO26262 車載功能安全</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/iso26262/light-and-dark-mode-switching/">ISO26262-Part2</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+</ul>
+
+
+
+
+    
+        </div>
+    </div>
+</aside>
+<main>
+    <div id="docspost">
+        <article class="docs-post">
+    <div class="post-header">
+        <h1 class="post-title">在 Ubuntu Server 上安装 Docker</h1>
+        <div class="post-meta">
+            <span>
+                <i class="bi bi-calendar3"></i>
+                May 7, 2024
+            </span>
+            <span>
+                <i class="bi bi-person-circle"></i>
+                
+                    Homecat
+                
+            </span>
+        </div>
+    </div>
+    <div class="post-container ">
+        <div class="post-content markdown"><p>Docker 是一个开源的应用容器引擎，通过容器的生成和使用加快构建、共享和运行应用程序的速度，帮助开发人员在任何地方构建、共享、运行和验证应用程序，而无需繁琐的环境配置或管理。本文是在 Ubuntu Server 22.04 上安装 Docker 的过程记录。</p>
+<!--more-->
+<h2 id="安装">安装</h2>
+<p>Docker在 <a href="https://get.docker.com/">https://get.docker.com/</a> 提供了安装脚本，可以以非交互方式将Docker安装。</p>
+<h3 id="获取脚本及安装命令">获取脚本及安装命令</h3>
+<pre tabindex="0"><code>curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+</code></pre><h3 id="安装提示信息">安装提示信息</h3>
+<pre tabindex="0"><code># Executing docker install script, commit: e5543d473431b782227f8908005543bb4389b8de
++ sh -c apt-get update -qq &gt;/dev/null
++ sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq apt-transport-https ca-certificates curl &gt;/dev/null
+debconf: delaying package configuration, since apt-utils is not installed
++ sh -c install -m 0755 -d /etc/apt/keyrings
++ sh -c curl -fsSL &#34;https://download.docker.com/linux/ubuntu/gpg&#34; | gpg --dearmor --yes -o /etc/apt/keyrings/docker.gpg
++ sh -c chmod a+r /etc/apt/keyrings/docker.gpg
++ sh -c echo &#34;deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu jammy stable&#34; &gt; /etc/apt/sources.list.d/docker.list
++ sh -c apt-get update -qq &gt;/dev/null
++ sh -c DEBIAN_FRONTEND=noninteractive apt-get install -y -qq docker-ce docker-ce-cli containerd.io docker-compose-plugin docker-ce-rootless-extras docker-buildx-plugin &gt;/dev/null
+debconf: delaying package configuration, since apt-utils is not installed
++ sh -c docker version
+Client: Docker Engine - Community
+ Version:           26.1.1
+ API version:       1.45
+ Go version:        go1.21.9
+ Git commit:        4cf5afa
+ Built:             Tue Apr 30 11:47:53 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          26.1.1
+  API version:      1.45 (minimum version 1.24)
+  Go version:       go1.21.9
+  Git commit:       ac2de55
+  Built:            Tue Apr 30 11:47:53 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.31
+  GitCommit:        e377cd56a71523140ca6ae87e30244719194a521
+ runc:
+  Version:          1.1.12
+  GitCommit:        v1.1.12-0-g51d5e94
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+
+================================================================================
+
+To run Docker as a non-privileged user, consider setting up the
+Docker daemon in rootless mode for your user:
+
+    dockerd-rootless-setuptool.sh install
+
+Visit https://docs.docker.com/go/rootless/ to learn about rootless mode.
+
+
+To run the Docker daemon as a fully privileged service, but granting non-root
+users access, refer to https://docs.docker.com/go/daemon-access/
+
+WARNING: Access to the remote API on a privileged Docker daemon is equivalent
+         to root access on the host. Refer to the &#39;Docker daemon attack surface&#39;
+         documentation for details: https://docs.docker.com/go/attack-surface/
+
+================================================================================
+</code></pre><h3 id="验证安装完成">验证安装完成</h3>
+<pre tabindex="0"><code>docker run --rm hello-world
+Unable to find image &#39;hello-world:latest&#39; locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Pull complete 
+Digest: sha256:a26bff933ddc26d5cdf7faa98b4ae1e3ec20c4985e6f87ac0973052224d24302
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the &#34;hello-world&#34; image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+</code></pre><h3 id="查看安装版本">查看安装版本</h3>
+<pre tabindex="0"><code>sudo docker version
+
+Client: Docker Engine - Community
+ Version:           26.1.1
+ API version:       1.45
+ Go version:        go1.21.9
+ Git commit:        4cf5afa
+ Built:             Tue Apr 30 11:47:53 2024
+ OS/Arch:           linux/amd64
+ Context:           default
+
+Server: Docker Engine - Community
+ Engine:
+  Version:          26.1.1
+  API version:      1.45 (minimum version 1.24)
+  Go version:       go1.21.9
+  Git commit:       ac2de55
+  Built:            Tue Apr 30 11:47:53 2024
+  OS/Arch:          linux/amd64
+  Experimental:     false
+ containerd:
+  Version:          1.6.31
+  GitCommit:        e377cd56a71523140ca6ae87e30244719194a521
+ runc:
+  Version:          1.1.12
+  GitCommit:        v1.1.12-0-g51d5e94
+ docker-init:
+  Version:          0.19.0
+  GitCommit:        de40ad0
+</code></pre><h2 id="启动-docker">启动 Docker</h2>
+<pre tabindex="0"><code>sudo systemctl enable docker
+sudo systemctl start docker
+</code></pre><h2 id="授予非-root-用户特权">授予非 root 用户特权</h2>
+<pre tabindex="0"><code>sudo groupadd docker
+sudo usermod -aG docker $USER
+</code></pre><h2 id="改用国内镜像源">改用国内镜像源</h2>
+<p>文件位置：/etc/docker/daemon.json</p>
+<pre tabindex="0"><code>{
+  &#34;registry-mirrors&#34;: [
+        &#34;https://docker.m.daocloud.io&#34;,
+        &#34;https://docker.nju.edu.cn&#34;,
+        &#34;https://dockerproxy.com&#34;
+  ]
+}
+</code></pre><h2 id="删除-docker">删除 Docker</h2>
+<pre tabindex="0"><code>sudo apt purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+</code></pre></div>
+        >
+        
+        <div class="post-toc"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装">安装</a>
+      <ul>
+        <li><a href="#获取脚本及安装命令">获取脚本及安装命令</a></li>
+        <li><a href="#安装提示信息">安装提示信息</a></li>
+        <li><a href="#验证安装完成">验证安装完成</a></li>
+        <li><a href="#查看安装版本">查看安装版本</a></li>
+      </ul>
+    </li>
+    <li><a href="#启动-docker">启动 Docker</a></li>
+    <li><a href="#授予非-root-用户特权">授予非 root 用户特权</a></li>
+    <li><a href="#改用国内镜像源">改用国内镜像源</a></li>
+    <li><a href="#删除-docker">删除 Docker</a></li>
+  </ul>
+</nav></div>
+    </div>
+</article>
+
+    </div>
+</main>
+<div class="toggles">
+    <a class="sider-open"><i class="bi bi-layout-sidebar"></i></a>
+    <a class="sider-close"><i class="bi bi-x"></i></a>
+    <a class="totop" href="#"><i class="bi bi-chevron-up"></i></a>
+    <a href="#TableOfContents"><i class="bi bi-list-ul"></i></a>
+</div>
+
+    </div>
+    <footer id="footer">
+      <div class="copyright">
+    <span><i class="bi bi-c-circle"></i>2024</span>
+    <span>Homecat</span>
+    <span>版权所有</span>
+</div>
+    </footer>
+  
+<script src="/vendor/jquery-3.7.1/jquery.min.js"></script>
+
+
+<script src="/js/main.js"></script>
+  </body>
+</html>

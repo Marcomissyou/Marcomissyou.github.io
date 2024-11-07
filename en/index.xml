@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Walden</title>
+    <link>https://genway.com.cn/en/</link>
+    <description>Recent content in Home on Walden</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>All rights reserved</copyright>
+    <lastBuildDate>Mon, 29 Jul 2024 14:26:19 +0800</lastBuildDate>
+    <atom:link href="https://genway.com.cn/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Figure</title>
+      <link>https://genway.com.cn/en/docs/shortcodes/figure/</link>
+      <pubDate>Mon, 17 Jun 2024 18:48:43 +0800</pubDate>
+      <guid>https://genway.com.cn/en/docs/shortcodes/figure/</guid>
+      <description>&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;#34;https://pic.imgdb.cn/item/63beb6b5be43e0d30e3aa660.jpg&amp;#34; title=&amp;#34;人与峡谷。 ©Homecat&amp;#34; &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;render-style&#34;&gt;Render Style&lt;/h2&gt;&#xA;&lt;figure&gt;&#xD;&#xA;    &lt;img src=&#34;https://pic.imgdb.cn/item/63beb6b5be43e0d30e3aa660.jpg&#34; /&gt;&#xD;&#xA;    &lt;figcaption&gt;&#xD;&#xA;        人与峡谷。 ©Homecat&#xD;&#xA;    &lt;/figcaption&gt;&#xD;&#xA;&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Demo</title>
+      <link>https://genway.com.cn/en/docs/get-started/demo/</link>
+      <pubDate>Sat, 17 Jun 2023 19:10:02 +0800</pubDate>
+      <guid>https://genway.com.cn/en/docs/get-started/demo/</guid>
+      <description>&lt;p&gt;Two ways to view the demo：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Visit demo site: &lt;a href=&#34;https://walden.genway.com.cn&#34;&gt;walden.genway.com.cn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;View demo by cloning repository from Github.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/homecat805/hugo-theme-walden hugo-theme-walden&#xD;&#xA;cd hugo-theme-walden&#xD;&#xA;hugo server --source &amp;#34;exampleSite&amp;#34; --themesDir  &amp;#34;../..&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Syntax</title>
+      <link>https://genway.com.cn/en/docs/markdown/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/syntax/</guid>
+      <description>&lt;p&gt;Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.&lt;/p&gt;&#xA;&lt;h2 id=&#34;markdown-guide&#34;&gt;Markdown Guide&lt;/h2&gt;&#xA;&lt;p&gt;The Markdown Guide is a free and open-source reference guide that explains how to use Markdown, the simple and easy-to-use markup language you can use to format virtually any document.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.markdownguide.org/&#34;&gt;markdownguide.org &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Installation</title>
+      <link>https://genway.com.cn/en/docs/get-started/installation/</link>
+      <pubDate>Sat, 17 Jun 2023 19:10:11 +0800</pubDate>
+      <guid>https://genway.com.cn/en/docs/get-started/installation/</guid>
+      <description>&lt;p&gt;The Hugo documentation describes in detail how to install on different operating systems, which will not be repeated here, the operating system related to this article is Ubuntu 22.04 LTS.&lt;/p&gt;&#xA;&lt;h2 id=&#34;as-submodule&#34;&gt;As Submodule&lt;/h2&gt;&#xA;&lt;p&gt;Create the website root directory mysite and perform git initialization, then install the theme as a module to the mysite/themes, and copy all the files in the exampleSite in theme directory to the root directory of the website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Text</title>
+      <link>https://genway.com.cn/en/docs/markdown/text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/text/</guid>
+      <description>&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;h2 id=&#34;heading-lever-2&#34;&gt;Heading lever 2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;heading-lever-3&#34;&gt;Heading lever 3&lt;/h3&gt;&#xA;&lt;h4 id=&#34;heading-lever-4&#34;&gt;Heading lever 4&lt;/h4&gt;&#xA;&lt;h5 id=&#34;heading-lever-5&#34;&gt;Heading lever 5&lt;/h5&gt;&#xA;&lt;h6 id=&#34;heading-lever-6&#34;&gt;Heading lever 6&lt;/h6&gt;&#xA;&lt;h2 id=&#34;paragraphs&#34;&gt;Paragraphs&lt;/h2&gt;&#xA;&lt;p&gt;When I wrote the following pages, or rather the bulk of them, I lived alone, in the woods, a mile from any neighbor, in a house which I had built myself, on the shore of Walden Pond, in Concord, Massachusetts, and earned my living by the labor of my hands only. I lived there two years and two months. At present I am a sojourner in civilized life again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emphasis</title>
+      <link>https://genway.com.cn/en/docs/markdown/emphasis/</link>
+      <pubDate>Fri, 21 Jul 2023 05:16:53 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/emphasis/</guid>
+      <description>&lt;h2 id=&#34;bold&#34;&gt;Bold&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;When I wrote the following pages, or rather the bulk of them, I lived alone, in the woods, a mile from any neighbor, in a house which I had built myself, on the shore of Walden Pond, in Concord, Massachusetts, and earned my living by the labor of my hands only. I lived there two years and two months. At present I am a sojourner in civilized life again.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blockquotes</title>
+      <link>https://genway.com.cn/en/docs/markdown/blockquotes/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:58 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/blockquotes/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;When I wrote the following pages, or rather the bulk of them, I lived alone, in the woods, a mile from any neighbor, in a house which I had built myself, on the shore of Walden Pond, in Concord, Massachusetts, and earned my living by the labor of my hands only. I lived there two years and two months. At present I am a sojourner in civilized life again.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>https://genway.com.cn/en/docs/markdown/code/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:58 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/code/</guid>
+      <description>&lt;p&gt;If you’re on a Debian-based distribution, such as Ubuntu, try apt command &lt;code&gt;$ sudo apt install git-all&lt;/code&gt;. For more options, there are instructions for installing on several different Unix distributions on the Git website.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Blocks</title>
+      <link>https://genway.com.cn/en/docs/markdown/code-block/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:58 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/code-block/</guid>
+      <description>&lt;h2 id=&#34;normal&#34;&gt;Normal&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt; &#xD;&#xA;&amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt;&#xD;&#xA;    &amp;lt;head&amp;gt;&#xD;&#xA;        &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt;&#xD;&#xA;        &amp;lt;title&amp;gt;Example HTML5 Document Example&amp;lt;/title&amp;gt;&#xD;&#xA;    &amp;lt;/head&amp;gt;&#xD;&#xA;    &amp;lt;body&amp;gt;&#xD;&#xA;        &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;&#xD;&#xA;    &amp;lt;/body&amp;gt;&#xD;&#xA;&amp;lt;/html&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;html&#34;&gt;HTML&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt; &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document Example&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;javascript&#34;&gt;Javascript&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;$&lt;/span&gt;(window).&lt;span style=&#34;color:#a6e22e&#34;&gt;scroll&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;(){&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;$&lt;/span&gt;(window).&lt;span style=&#34;color:#a6e22e&#34;&gt;scrollTop&lt;/span&gt;()&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;300&lt;/span&gt;){&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;$&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;#totoc&amp;#39;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;fadeIn&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;250&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }&lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;{&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#a6e22e&#34;&gt;$&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;#totoc&amp;#39;&lt;/span&gt;).&lt;span style=&#34;color:#a6e22e&#34;&gt;fadeOut&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;250&lt;/span&gt;);&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    };&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;});&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Footnotes</title>
+      <link>https://genway.com.cn/en/docs/markdown/footnotes/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:53 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/footnotes/</guid>
+      <description>&lt;p&gt;When I wrote the following pages, or rather the bulk of them, I lived alone, in the woods, a mile from any neighbor, in a house which I had built myself, on the shore of Walden Pond, in Concord, Massachusetts, and earned my living by the labor of my hands only.&lt;cite&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;I lived there two years and two months. At present I am a sojourner in civilized life again.&lt;cite&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/cite&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;Thoreau wrote the first draft of Walden at the pond, but continued to work on the book for several more years. Irish laborers for the Fitchburg Railroad lived in shanties that were closer than a mile, but Thoreau did not considered them neighbors, because they moved soon after after the completion of the railroad.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image</title>
+      <link>https://genway.com.cn/en/docs/markdown/image/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:58 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/image/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Image&#34; src=&#34;https://cn.bing.com/th?id=OHR.Borovets_ZH-CN5914681811_1920x1200.jpg&amp;rf=LaDigue_1920x1200.jpg&#34; title=&#34;Description of Image&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Links</title>
+      <link>https://genway.com.cn/en/docs/markdown/links/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:53 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/links/</guid>
+      <description>&lt;p&gt;Link: &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Website: &lt;a href=&#34;https://gohugo.io&#34;&gt;https://gohugo.io&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:13050082@qq.com&#34;&gt;13050082@qq.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lists</title>
+      <link>https://genway.com.cn/en/docs/markdown/lists/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:53 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/lists/</guid>
+      <description>&lt;h2 id=&#34;ordered-lists&#34;&gt;Ordered Lists&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;li&gt;Fourth item&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;unordered-lists&#34;&gt;Unordered Lists&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;li&gt;Fourth item&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;nested-lists&#34;&gt;Nested Lists&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First item&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Second item&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Third item&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Table</title>
+      <link>https://genway.com.cn/en/docs/markdown/table/</link>
+      <pubDate>Thu, 20 Jul 2023 05:16:53 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/table/</guid>
+      <description>&lt;div class=&#34;table-container&#34;&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;No&lt;/th&gt;&#xA;          &lt;th&gt;YEAR&lt;/th&gt;&#xA;          &lt;th&gt;PORULATION&lt;/th&gt;&#xA;          &lt;th&gt;URBAN&lt;/th&gt;&#xA;          &lt;th&gt;RURAL&lt;/th&gt;&#xA;          &lt;th&gt;URBAN/TOTAL&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1&lt;/td&gt;&#xA;          &lt;td&gt;2005&lt;/td&gt;&#xA;          &lt;td&gt;130756&lt;/td&gt;&#xA;          &lt;td&gt;56212&lt;/td&gt;&#xA;          &lt;td&gt;74544&lt;/td&gt;&#xA;          &lt;td&gt;43.0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;2&lt;/td&gt;&#xA;          &lt;td&gt;2006&lt;/td&gt;&#xA;          &lt;td&gt;131448&lt;/td&gt;&#xA;          &lt;td&gt;58288&lt;/td&gt;&#xA;          &lt;td&gt;73160&lt;/td&gt;&#xA;          &lt;td&gt;44.3&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;3&lt;/td&gt;&#xA;          &lt;td&gt;2007&lt;/td&gt;&#xA;          &lt;td&gt;132129&lt;/td&gt;&#xA;          &lt;td&gt;60633&lt;/td&gt;&#xA;          &lt;td&gt;71496&lt;/td&gt;&#xA;          &lt;td&gt;45.9&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;4&lt;/td&gt;&#xA;          &lt;td&gt;2008&lt;/td&gt;&#xA;          &lt;td&gt;132802&lt;/td&gt;&#xA;          &lt;td&gt;62403&lt;/td&gt;&#xA;          &lt;td&gt;70399&lt;/td&gt;&#xA;          &lt;td&gt;47.0&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;5&lt;/td&gt;&#xA;          &lt;td&gt;2009&lt;/td&gt;&#xA;          &lt;td&gt;133450&lt;/td&gt;&#xA;          &lt;td&gt;64512&lt;/td&gt;&#xA;          &lt;td&gt;68938&lt;/td&gt;&#xA;          &lt;td&gt;48.3&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;6&lt;/td&gt;&#xA;          &lt;td&gt;2010&lt;/td&gt;&#xA;          &lt;td&gt;134091&lt;/td&gt;&#xA;          &lt;td&gt;66978&lt;/td&gt;&#xA;          &lt;td&gt;67113&lt;/td&gt;&#xA;          &lt;td&gt;49.9&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;7&lt;/td&gt;&#xA;          &lt;td&gt;2011&lt;/td&gt;&#xA;          &lt;td&gt;134916&lt;/td&gt;&#xA;          &lt;td&gt;69927&lt;/td&gt;&#xA;          &lt;td&gt;64989&lt;/td&gt;&#xA;          &lt;td&gt;51.8&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;8&lt;/td&gt;&#xA;          &lt;td&gt;2012&lt;/td&gt;&#xA;          &lt;td&gt;135922&lt;/td&gt;&#xA;          &lt;td&gt;72175&lt;/td&gt;&#xA;          &lt;td&gt;63747&lt;/td&gt;&#xA;          &lt;td&gt;53.1&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>More …</title>
+      <link>https://genway.com.cn/en/docs/markdown/more/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://genway.com.cn/en/docs/markdown/more/</guid>
+      <description>&lt;h2 id=&#34;abbreviation&#34;&gt;Abbreviation&lt;/h2&gt;&#xA;&lt;p&gt;&lt;abbr title=&#34;Graphics Interchange Format&#34;&gt;GIF&lt;/abbr&gt; is a bitmap image format.&lt;/p&gt;&#xA;&lt;h2 id=&#34;subscript&#34;&gt;Subscript&lt;/h2&gt;&#xA;&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;&#xA;&lt;h2 id=&#34;superscript&#34;&gt;Superscript&lt;/h2&gt;&#xA;&lt;p&gt;X&lt;sup&gt;n&lt;/sup&gt; + Y&lt;sup&gt;n&lt;/sup&gt; = Z&lt;sup&gt;n&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;keybord&#34;&gt;Keybord&lt;/h2&gt;&#xA;&lt;p&gt;Press &lt;kbd&gt;CTRL&lt;/kbd&gt;+&lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;DEL&lt;/kbd&gt; to end the session.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mark&#34;&gt;Mark&lt;/h2&gt;&#xA;&lt;p&gt;Most &lt;mark&gt;salamanders&lt;/mark&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Theme Walden</title>
+      <link>https://genway.com.cn/en/blog/hugo-theme-walden/</link>
+      <pubDate>Mon, 29 Jul 2024 14:26:19 +0800</pubDate>
+      <guid>https://genway.com.cn/en/blog/hugo-theme-walden/</guid>
+      <description>&lt;p&gt;After reading &lt;i&gt;&lt;b&gt;Walden&lt;/b&gt;&lt;/i&gt;, a collection of essays by American writer Henry David Thoreau, I was deeply influenced by his love of nature and simple living. So, I wrote this concise and clear theme for my personal website and named it Walden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Waves</title>
+      <link>https://genway.com.cn/en/blog/sample-4/</link>
+      <pubDate>Sun, 28 Jul 2024 15:17:50 +0800</pubDate>
+      <guid>https://genway.com.cn/en/blog/sample-4/</guid>
+      <description>&lt;p&gt;Waves are the children of the struggle between ocean and atmosphere, the ongoing signatures of infinity. Rays from the sun excite and energize the atmosphere of the earth, awakening it to flow, to movement, to rhythm, to life. The wind then speaks the message of the sun to the sea and the sea transmits it on through waves &amp;ndash; an ancient, exquisite, powerful message.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Past Life Of The Earth</title>
+      <link>https://genway.com.cn/en/blog/sample-3/</link>
+      <pubDate>Sun, 28 Jul 2024 15:17:44 +0800</pubDate>
+      <guid>https://genway.com.cn/en/blog/sample-3/</guid>
+      <description>&lt;p&gt;It is animals and plants which lived in or near water whose remains are most likely to be preserved, for one of the necessary conditions of preservation is quick burial, and it is only in the seas and rivers, and sometimes lakes, where mud and sit have been continuously deposited, that bodies and the can be rapidly covered over and preserved.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Sporting Spirit</title>
+      <link>https://genway.com.cn/en/blog/sample-2/</link>
+      <pubDate>Sun, 28 Jul 2024 15:17:34 +0800</pubDate>
+      <guid>https://genway.com.cn/en/blog/sample-2/</guid>
+      <description>&lt;p&gt;I am always amazed when I hear people saying that sport creates goodwill between the nations, and that if only the common peoples of the would could meet one another at football or cricket, they would have no inclination to meet on the hattlefield. Even if one didn&amp;rsquo;t know from concrete examples (the 1936 Olympic Games, for instance) that international sporting contests lead to orgies of hatred, one could deduce if from general principles.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Puma At Large</title>
+      <link>https://genway.com.cn/en/blog/sample-1/</link>
+      <pubDate>Sun, 28 Jul 2024 15:11:55 +0800</pubDate>
+      <guid>https://genway.com.cn/en/blog/sample-1/</guid>
+      <description>&lt;p&gt;Pumas are large, cat-like animals which are found in America. When reports came into London Zoo that a wild puma had been spotted forty-five miles south of London, they were not taken seriously.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

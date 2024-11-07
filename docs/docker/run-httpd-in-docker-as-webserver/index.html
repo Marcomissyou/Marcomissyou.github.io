@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>在 Docker 容器中运行 Apache 网站服务器 | 瓦尔登湖</title>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+<link rel="stylesheet" href="/vendor/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+
+
+<link href="/css/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header id="header">
+      <div class="header">
+    <div class="title">瓦尔登湖</div>
+    <div class="other">
+        <span class="screen-width">
+    <span class="xs">XS 0-600</span>
+    <span class="sm">SM 600-800</span>
+    <span class="md">MD 800-1000</span>
+    <span class="lg">LG 1000-1200</span>
+    <span class="xl">XL 1200-1500</span>
+    <span class="xxl">XXL 1500-1800</span>
+    <span class="xxxl">XXXL 1800-</span>
+</span>
+    </div>
+    <div class="menu-main-toggle">
+        <a class="open"><i class="bi bi-list"></i></a>
+        <a class="close"><i class="bi bi-x"></i></a>
+    </div>
+</div>
+<nav class="menu-main">
+    <div class="menu-container">
+        <ul class="menu">
+    
+    
+        
+        
+        <li class="menu-item">
+            <a class="" href="/">首页</a>
+        </li>
+    
+        
+        
+        <li class="menu-item">
+            <a class=" active " href="/docs/">文件</a>
+        </li>
+    
+        
+        
+        <li class="menu-item">
+            <a class="" href="/blog/">部落客</a>
+        </li>
+    
+    </ul>
+    </div>
+    <div class="menu-container">
+        
+    <ul class="menu">
+    
+    
+            <li class="menu-item">
+                <a href="https://genway.com.cn/en/">English</a>
+            </li>
+            
+        
+        
+    
+    
+    </ul>
+
+    </div>
+</nav>
+    </header>
+    <div id="stager">
+      
+<aside class="aside-default">
+    <div class="inner-container">
+        <div id="menutree">
+            
+
+
+    
+<ul class="menu-tree">
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>INCOSE 系統工程</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop/">Ubuntu 桌面的安装使用笔记</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/">Ubuntu 桌面 - 应用软件</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/">Ubuntu 桌面 - 工具</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>Docker</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/docker/install-docker-on-ubuntu/">在 Ubuntu Server 上安装 Docker</a>
+        
+        </li>
+    
+
+    
+        <li class="menu-tree-item">
+        
+            <a class="active" href="https://genway.com.cn/docs/docker/run-httpd-in-docker-as-webserver/">在 Docker 容器中运行 Apache 网站服务器</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>前端技术</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/frontend/light-and-dark-mode-switching/">网页明暗模式切换的原生代码</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>Nodejs</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/nodejs/nvm-nodejs-manager/">NVM - Nodejs 版本管理器</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+    
+
+        <li class="menu-tree-title">
+            <div class="container">
+                <span>ISO26262 車載功能安全</span>
+                <a class="open"><i class="bi bi-chevron-down"></i></a>
+                <a class="close"><i class="bi bi-chevron-up"></i></a>
+            </div>
+            
+<ul class="menu-tree">
+
+    
+        <li class="menu-tree-item">
+        
+            <a href="https://genway.com.cn/docs/iso26262/light-and-dark-mode-switching/">ISO26262-Part2</a>
+        
+        </li>
+    
+
+</ul>
+
+        </li>
+
+    
+
+</ul>
+
+
+
+
+    
+        </div>
+    </div>
+</aside>
+<main>
+    <div id="docspost">
+        <article class="docs-post">
+    <div class="post-header">
+        <h1 class="post-title">在 Docker 容器中运行 Apache 网站服务器</h1>
+        <div class="post-meta">
+            <span>
+                <i class="bi bi-calendar3"></i>
+                Apr 15, 2023
+            </span>
+            <span>
+                <i class="bi bi-person-circle"></i>
+                
+                    Homecat
+                
+            </span>
+        </div>
+    </div>
+    <div class="post-container ">
+        <div class="post-content markdown"><p>在 Docker 容器中使用官方 HTTPD 镜像搭建 Apache Web 服务器的作业记录。</p>
+<h2 id="作业环境">作业环境</h2>
+<p>远程服务器操作系统：Ubuntu 22.04 Server 已安装 OpenSSH 和 Docker<br>
+远程服务器地址：192.168.1.121<br>
+远程服务器用户：zhong<br>
+本地客户端操作系统：Ubuntu 22.04 Desktop 已安装 OpenSSH<br>
+本地客户端网站目录 /home/homecat/www/blog/public</p>
+<h2 id="上传网站文件到服务器端">上传网站文件到服务器端</h2>
+<pre tabindex="0"><code>scp -r /home/homecat/www/blog/public zhong@192.168.2.6:/home/zhong/www
+</code></pre><h2 id="登录服务器">登录服务器</h2>
+<pre tabindex="0"><code>ssh zhong@192.168.1.121
+cd www
+</code></pre><h2 id="拉取镜像并建立容器">拉取镜像并建立容器</h2>
+<pre tabindex="0"><code>docker pull httpd:2.4
+docker run -dit --name myblog -p 80:80 -v &#34;$PWD&#34;/www:/usr/local/apache2/htdocs/ httpd:2.4
+</code></pre><h2 id="访问-web-服务器">访问 Web 服务器</h2>
+<p>http://192.168.1.121</p></div>
+        >
+        
+        <div class="post-toc"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#作业环境">作业环境</a></li>
+    <li><a href="#上传网站文件到服务器端">上传网站文件到服务器端</a></li>
+    <li><a href="#登录服务器">登录服务器</a></li>
+    <li><a href="#拉取镜像并建立容器">拉取镜像并建立容器</a></li>
+    <li><a href="#访问-web-服务器">访问 Web 服务器</a></li>
+  </ul>
+</nav></div>
+    </div>
+</article>
+
+    </div>
+</main>
+<div class="toggles">
+    <a class="sider-open"><i class="bi bi-layout-sidebar"></i></a>
+    <a class="sider-close"><i class="bi bi-x"></i></a>
+    <a class="totop" href="#"><i class="bi bi-chevron-up"></i></a>
+    <a href="#TableOfContents"><i class="bi bi-list-ul"></i></a>
+</div>
+
+    </div>
+    <footer id="footer">
+      <div class="copyright">
+    <span><i class="bi bi-c-circle"></i>2024</span>
+    <span>Homecat</span>
+    <span>版权所有</span>
+</div>
+    </footer>
+  
+<script src="/vendor/jquery-3.7.1/jquery.min.js"></script>
+
+
+<script src="/js/main.js"></script>
+  </body>
+</html>
