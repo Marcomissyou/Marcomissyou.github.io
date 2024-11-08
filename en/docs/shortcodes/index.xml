@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcodes on Walden</title>
-    <link>https://genway.com.cn/en/docs/shortcodes/</link>
+    <link>https://marcomissyou.github.io/en/docs/shortcodes/</link>
     <description>Recent content in Shortcodes on Walden</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>All rights reserved</copyright>
     <lastBuildDate>Mon, 17 Jun 2024 18:48:43 +0800</lastBuildDate>
-    <atom:link href="https://genway.com.cn/en/docs/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcomissyou.github.io/en/docs/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Figure</title>
-      <link>https://genway.com.cn/en/docs/shortcodes/figure/</link>
+      <link>https://marcomissyou.github.io/en/docs/shortcodes/figure/</link>
       <pubDate>Mon, 17 Jun 2024 18:48:43 +0800</pubDate>
-      <guid>https://genway.com.cn/en/docs/shortcodes/figure/</guid>
+      <guid>https://marcomissyou.github.io/en/docs/shortcodes/figure/</guid>
       <description>&lt;h2 id=&#34;syntax&#34;&gt;Syntax&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{&amp;lt; figure src=&amp;#34;https://pic.imgdb.cn/item/63beb6b5be43e0d30e3aa660.jpg&amp;#34; title=&amp;#34;人与峡谷。 ©Homecat&amp;#34; &amp;gt;}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;render-style&#34;&gt;Render Style&lt;/h2&gt;&#xA;&lt;figure&gt;&#xD;&#xA;    &lt;img src=&#34;https://pic.imgdb.cn/item/63beb6b5be43e0d30e3aa660.jpg&#34; /&gt;&#xD;&#xA;    &lt;figcaption&gt;&#xD;&#xA;        人与峡谷。 ©Homecat&#xD;&#xA;    &lt;/figcaption&gt;&#xD;&#xA;&lt;/figure&gt;</description>
     </item>
   </channel>

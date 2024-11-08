@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>系統工程 on 瓦尔登湖</title>
-    <link>https://genway.com.cn/docs/</link>
-    <description>Recent content in 系統工程 on 瓦尔登湖</description>
+    <title>系統工程</title>
+    <link>https://marcomissyou.github.io/docs/</link>
+    <description>Recent content on 系統工程</description>
     <generator>Hugo</generator>
     <language>zh-Hans-CN</language>
-    <copyright>版权所有</copyright>
+    <copyright>版權所有</copyright>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://genway.com.cn/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcomissyou.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

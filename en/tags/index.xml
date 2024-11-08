@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tag on Walden</title>
-    <link>https://genway.com.cn/en/tags/</link>
+    <link>https://marcomissyou.github.io/en/tags/</link>
     <description>Recent content in Tag on Walden</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>All rights reserved</copyright>
     <lastBuildDate>Mon, 29 Jul 2024 14:26:19 +0800</lastBuildDate>
-    <atom:link href="https://genway.com.cn/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcomissyou.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Theme</title>
-      <link>https://genway.com.cn/en/tags/hugo-theme/</link>
+      <link>https://marcomissyou.github.io/en/tags/hugo-theme/</link>
       <pubDate>Mon, 29 Jul 2024 14:26:19 +0800</pubDate>
-      <guid>https://genway.com.cn/en/tags/hugo-theme/</guid>
+      <guid>https://marcomissyou.github.io/en/tags/hugo-theme/</guid>
       <description></description>
     </item>
     <item>
       <title>Reading</title>
-      <link>https://genway.com.cn/en/tags/reading/</link>
+      <link>https://marcomissyou.github.io/en/tags/reading/</link>
       <pubDate>Sun, 28 Jul 2024 15:17:50 +0800</pubDate>
-      <guid>https://genway.com.cn/en/tags/reading/</guid>
+      <guid>https://marcomissyou.github.io/en/tags/reading/</guid>
       <description></description>
     </item>
   </channel>

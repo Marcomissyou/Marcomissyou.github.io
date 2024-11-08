@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo Theme on Walden</title>
-    <link>https://genway.com.cn/en/tags/hugo-theme/</link>
+    <link>https://marcomissyou.github.io/en/tags/hugo-theme/</link>
     <description>Recent content in Hugo Theme on Walden</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>All rights reserved</copyright>
     <lastBuildDate>Mon, 29 Jul 2024 14:26:19 +0800</lastBuildDate>
-    <atom:link href="https://genway.com.cn/en/tags/hugo-theme/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcomissyou.github.io/en/tags/hugo-theme/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Theme Walden</title>
-      <link>https://genway.com.cn/en/blog/hugo-theme-walden/</link>
+      <link>https://marcomissyou.github.io/en/blog/hugo-theme-walden/</link>
       <pubDate>Mon, 29 Jul 2024 14:26:19 +0800</pubDate>
-      <guid>https://genway.com.cn/en/blog/hugo-theme-walden/</guid>
+      <guid>https://marcomissyou.github.io/en/blog/hugo-theme-walden/</guid>
       <description>&lt;p&gt;After reading &lt;i&gt;&lt;b&gt;Walden&lt;/b&gt;&lt;/i&gt;, a collection of essays by American writer Henry David Thoreau, I was deeply influenced by his love of nature and simple living. So, I wrote this concise and clear theme for my personal website and named it Walden.&lt;/p&gt;</description>
     </item>
   </channel>

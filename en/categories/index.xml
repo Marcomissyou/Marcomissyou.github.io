@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Category on Walden</title>
-    <link>https://genway.com.cn/en/categories/</link>
+    <link>https://marcomissyou.github.io/en/categories/</link>
     <description>Recent content in Category on Walden</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>All rights reserved</copyright>
     <lastBuildDate>Mon, 29 Jul 2024 14:26:19 +0800</lastBuildDate>
-    <atom:link href="https://genway.com.cn/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcomissyou.github.io/en/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https://genway.com.cn/en/categories/hugo/</link>
+      <link>https://marcomissyou.github.io/en/categories/hugo/</link>
       <pubDate>Mon, 29 Jul 2024 14:26:19 +0800</pubDate>
-      <guid>https://genway.com.cn/en/categories/hugo/</guid>
+      <guid>https://marcomissyou.github.io/en/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>English Learning</title>
-      <link>https://genway.com.cn/en/categories/english-learning/</link>
+      <link>https://marcomissyou.github.io/en/categories/english-learning/</link>
       <pubDate>Sun, 28 Jul 2024 15:17:50 +0800</pubDate>
-      <guid>https://genway.com.cn/en/categories/english-learning/</guid>
+      <guid>https://marcomissyou.github.io/en/categories/english-learning/</guid>
       <description></description>
     </item>
   </channel>
