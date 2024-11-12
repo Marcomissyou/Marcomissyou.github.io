@@ -2,158 +2,158 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://genway.com.cn/docs/ubuntu/</loc>
+    <loc>https://marcomissyou.github.io/docs/ubuntu/</loc>
     <lastmod>2024-11-01T09:44:53+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/docker/install-docker-on-ubuntu/</loc>
+    <loc>https://marcomissyou.github.io/docs/docker/install-docker-on-ubuntu/</loc>
     <lastmod>2024-05-07T15:30:51+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/nodejs/nvm-nodejs-manager/</loc>
+    <loc>https://marcomissyou.github.io/docs/nodejs/nvm-nodejs-manager/</loc>
     <lastmod>2022-12-25T20:19:38+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/iso26262/light-and-dark-mode-switching/</loc>
+    <loc>https://marcomissyou.github.io/docs/iso26262/light-and-dark-mode-switching/</loc>
     <lastmod>2022-08-31T09:15:36+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/frontend/light-and-dark-mode-switching/</loc>
+    <loc>https://marcomissyou.github.io/docs/frontend/light-and-dark-mode-switching/</loc>
     <lastmod>2022-08-31T09:15:36+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/ubuntu/ubuntu-desktop/</loc>
+    <loc>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop/</loc>
     <lastmod>2021-07-26T15:40:12+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/docker/</loc>
+    <loc>https://marcomissyou.github.io/docs/docker/</loc>
     <lastmod>2024-07-25T09:44:53+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/docker/run-httpd-in-docker-as-webserver/</loc>
+    <loc>https://marcomissyou.github.io/docs/docker/run-httpd-in-docker-as-webserver/</loc>
     <lastmod>2023-04-15T07:00:43+00:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/</loc>
+    <loc>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop-app/</loc>
     <lastmod>2021-12-22T11:27:43+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/</loc>
+    <loc>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop-tool/</loc>
     <lastmod>2021-07-31T13:16:03+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/frontend/</loc>
+    <loc>https://marcomissyou.github.io/docs/frontend/</loc>
     <lastmod>2024-07-25T09:44:53+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/nodejs/</loc>
+    <loc>https://marcomissyou.github.io/docs/nodejs/</loc>
     <lastmod>2024-07-25T09:44:53+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/docs/iso26262/</loc>
+    <loc>https://marcomissyou.github.io/docs/iso26262/</loc>
     <lastmod>2024-07-25T09:44:53+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/</loc>
+    <loc>https://marcomissyou.github.io/</loc>
     <lastmod>2024-11-01T09:44:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/"
+                href="https://marcomissyou.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/"
+                href="https://marcomissyou.github.io/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/docs/</loc>
+    <loc>https://marcomissyou.github.io/docs/</loc>
     <lastmod>2024-11-01T09:44:53+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/docs/"
+                href="https://marcomissyou.github.io/en/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/docs/"
+                href="https://marcomissyou.github.io/docs/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/series/headline/</loc>
+    <loc>https://marcomissyou.github.io/series/headline/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/series/headline/"
+                href="https://marcomissyou.github.io/en/series/headline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/series/headline/"
+                href="https://marcomissyou.github.io/series/headline/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/series/</loc>
+    <loc>https://marcomissyou.github.io/series/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/series/"
+                href="https://marcomissyou.github.io/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/series/"
+                href="https://marcomissyou.github.io/series/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/blog/nepal-trekking-abc/</loc>
+    <loc>https://marcomissyou.github.io/blog/nepal-trekking-abc/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/tags/</loc>
+    <loc>https://marcomissyou.github.io/tags/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/tags/"
+                href="https://marcomissyou.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/tags/"
+                href="https://marcomissyou.github.io/tags/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/blog/</loc>
+    <loc>https://marcomissyou.github.io/blog/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/blog/"
+                href="https://marcomissyou.github.io/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/blog/"
+                href="https://marcomissyou.github.io/blog/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/categories/</loc>
+    <loc>https://marcomissyou.github.io/categories/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://genway.com.cn/en/categories/"
+                href="https://marcomissyou.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-Hans-CN"
-                href="https://genway.com.cn/categories/"
+                href="https://marcomissyou.github.io/categories/"
                 />
   </url><url>
-    <loc>https://genway.com.cn/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</loc>
+    <loc>https://marcomissyou.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/categories/%E8%A1%8C%E8%80%85%E6%97%A0%E7%96%86/</loc>
+    <loc>https://marcomissyou.github.io/categories/%E8%A1%8C%E8%80%85%E6%97%A0%E7%96%86/</loc>
     <lastmod>2024-07-29T21:58:50+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/categories/%E4%BC%A0%E4%B8%96%E4%B9%8B%E4%BD%9C/</loc>
+    <loc>https://marcomissyou.github.io/categories/%E4%BC%A0%E4%B8%96%E4%B9%8B%E4%BD%9C/</loc>
     <lastmod>2024-03-02T12:26:01+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/tags/%E4%B8%8A%E8%99%9E/</loc>
+    <loc>https://marcomissyou.github.io/tags/%E4%B8%8A%E8%99%9E/</loc>
     <lastmod>2024-03-02T12:26:01+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/tags/%E4%B9%A6%E6%B3%95/</loc>
+    <loc>https://marcomissyou.github.io/tags/%E4%B9%A6%E6%B3%95/</loc>
     <lastmod>2024-03-02T12:26:01+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/tags/%E7%8E%8B%E7%BE%B2%E4%B9%8B/</loc>
+    <loc>https://marcomissyou.github.io/tags/%E7%8E%8B%E7%BE%B2%E4%B9%8B/</loc>
     <lastmod>2024-03-02T12:26:01+08:00</lastmod>
   </url><url>
-    <loc>https://genway.com.cn/blog/wang-xizhi-shangyu-calligraphy/</loc>
+    <loc>https://marcomissyou.github.io/blog/wang-xizhi-shangyu-calligraphy/</loc>
     <lastmod>2024-03-02T12:26:01+08:00</lastmod>
   </url>
 </urlset>

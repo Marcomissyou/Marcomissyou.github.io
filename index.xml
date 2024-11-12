@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首页 on 瓦尔登湖</title>
-    <link>https://genway.com.cn/</link>
-    <description>Recent content in 首页 on 瓦尔登湖</description>
+    <title>首页 on 系統工程</title>
+    <link>https://marcomissyou.github.io/</link>
+    <description>Recent content in 首页 on 系統工程</description>
     <generator>Hugo</generator>
     <language>zh-Hans-CN</language>
-    <copyright>版权所有</copyright>
+    <copyright>版權所有</copyright>
     <lastBuildDate>Mon, 29 Jul 2024 21:58:50 +0800</lastBuildDate>
-    <atom:link href="https://genway.com.cn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://marcomissyou.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在 Ubuntu Server 上安装 Docker</title>
-      <link>https://genway.com.cn/docs/docker/install-docker-on-ubuntu/</link>
+      <link>https://marcomissyou.github.io/docs/docker/install-docker-on-ubuntu/</link>
       <pubDate>Tue, 07 May 2024 15:30:51 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/docker/install-docker-on-ubuntu/</guid>
+      <guid>https://marcomissyou.github.io/docs/docker/install-docker-on-ubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>NVM - Nodejs 版本管理器</title>
-      <link>https://genway.com.cn/docs/nodejs/nvm-nodejs-manager/</link>
+      <link>https://marcomissyou.github.io/docs/nodejs/nvm-nodejs-manager/</link>
       <pubDate>Sun, 25 Dec 2022 20:19:38 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/nodejs/nvm-nodejs-manager/</guid>
+      <guid>https://marcomissyou.github.io/docs/nodejs/nvm-nodejs-manager/</guid>
       <description>&lt;p&gt;NVM 是 Nodejs 的版本管理器，适用于不同操作平台上任何符合 POSIX 标准的 shell， 如：sh、dash、ksh、zsh、bash等，允许用户通过命令行快速安装和使用不同版本的 Nodejs。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ISO26262-Part2</title>
-      <link>https://genway.com.cn/docs/iso26262/light-and-dark-mode-switching/</link>
+      <link>https://marcomissyou.github.io/docs/iso26262/light-and-dark-mode-switching/</link>
       <pubDate>Wed, 31 Aug 2022 09:15:36 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/iso26262/light-and-dark-mode-switching/</guid>
+      <guid>https://marcomissyou.github.io/docs/iso26262/light-and-dark-mode-switching/</guid>
       <description>&lt;p&gt;实现网页明暗模式的切换有多种方式，各有优缺点，可有个人喜好选择使用。本文记录通过 html、css 和 javascript 三种语言实现切换功能的基本思路和代码。&lt;/p&gt;</description>
     </item>
     <item>
       <title>网页明暗模式切换的原生代码</title>
-      <link>https://genway.com.cn/docs/frontend/light-and-dark-mode-switching/</link>
+      <link>https://marcomissyou.github.io/docs/frontend/light-and-dark-mode-switching/</link>
       <pubDate>Wed, 31 Aug 2022 09:15:36 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/frontend/light-and-dark-mode-switching/</guid>
+      <guid>https://marcomissyou.github.io/docs/frontend/light-and-dark-mode-switching/</guid>
       <description>&lt;p&gt;实现网页明暗模式的切换有多种方式，各有优缺点，可有个人喜好选择使用。本文记录通过 html、css 和 javascript 三种语言实现切换功能的基本思路和代码。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 桌面的安装使用笔记</title>
-      <link>https://genway.com.cn/docs/ubuntu/ubuntu-desktop/</link>
+      <link>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop/</link>
       <pubDate>Mon, 26 Jul 2021 15:40:12 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/ubuntu/ubuntu-desktop/</guid>
+      <guid>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop/</guid>
       <description>&lt;p&gt;Ubuntu 桌面系统是非常优秀的开源软件，提供了基本应用程序，如办公套件，浏览器，电子邮件和多媒体应用程序等，以及数千个游戏和应用程序。&lt;/p&gt;</description>
     </item>
     <item>
       <title>在 Docker 容器中运行 Apache 网站服务器</title>
-      <link>https://genway.com.cn/docs/docker/run-httpd-in-docker-as-webserver/</link>
+      <link>https://marcomissyou.github.io/docs/docker/run-httpd-in-docker-as-webserver/</link>
       <pubDate>Sat, 15 Apr 2023 07:00:43 +0000</pubDate>
-      <guid>https://genway.com.cn/docs/docker/run-httpd-in-docker-as-webserver/</guid>
+      <guid>https://marcomissyou.github.io/docs/docker/run-httpd-in-docker-as-webserver/</guid>
       <description>&lt;p&gt;在 Docker 容器中使用官方 HTTPD 镜像搭建 Apache Web 服务器的作业记录。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 桌面 - 应用软件</title>
-      <link>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/</link>
+      <link>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop-app/</link>
       <pubDate>Wed, 22 Dec 2021 11:27:43 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-app/</guid>
+      <guid>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop-app/</guid>
       <description>&lt;p&gt;Ubuntu 桌面系统有很多实用的应用软件，通常是和 Windows 系统下的应用软件是对标的；Ubuntu 软件仓库提供的程序的最大特点，也可以说是优点，就是绝大多数是开源的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 桌面 - 工具</title>
-      <link>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/</link>
+      <link>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop-tool/</link>
       <pubDate>Sat, 31 Jul 2021 13:16:03 +0800</pubDate>
-      <guid>https://genway.com.cn/docs/ubuntu/ubuntu-desktop-tool/</guid>
+      <guid>https://marcomissyou.github.io/docs/ubuntu/ubuntu-desktop-tool/</guid>
       <description>&lt;p&gt;Ubuntu 有许多工具，实在让人爱不释手。这些工具的使用多半是采用命令方式，随着键盘的敲击声响起，一种随心所欲的感觉油然而生。&lt;/p&gt;</description>
     </item>
     <item>
       <title>安娜普尔纳 ABC 九日</title>
-      <link>https://genway.com.cn/blog/nepal-trekking-abc/</link>
+      <link>https://marcomissyou.github.io/blog/nepal-trekking-abc/</link>
       <pubDate>Mon, 29 Jul 2024 21:58:50 +0800</pubDate>
-      <guid>https://genway.com.cn/blog/nepal-trekking-abc/</guid>
+      <guid>https://marcomissyou.github.io/blog/nepal-trekking-abc/</guid>
       <description>&lt;p&gt;安娜普尔纳（Annapurana）地区位于尼泊尔北部的喜马拉雅山中段，有两条成熟且知名的徒步线路：一条去往安娜普尔纳大本营ABC（Annapurna Base Camp），另一条围绕着安娜普尔纳群峰行进的环线ACT（Annapurna Circle Trail）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>王羲之 - 《上虞帖》</title>
-      <link>https://genway.com.cn/blog/wang-xizhi-shangyu-calligraphy/</link>
+      <link>https://marcomissyou.github.io/blog/wang-xizhi-shangyu-calligraphy/</link>
       <pubDate>Sat, 02 Mar 2024 12:26:01 +0800</pubDate>
-      <guid>https://genway.com.cn/blog/wang-xizhi-shangyu-calligraphy/</guid>
+      <guid>https://marcomissyou.github.io/blog/wang-xizhi-shangyu-calligraphy/</guid>
       <description>&lt;p&gt;《上虞帖》又名《夜来腹痛帖》，是东晋著名书法家王羲之用草书写给亲友的一则简扎，说明未得见面之原因及其他亲友的近况。纸本、草书、纵23.5厘米、横26 厘米，七行共五十八字，现收藏于上海博物馆，属镇馆之宝。&lt;/p&gt;</description>
     </item>
   </channel>
